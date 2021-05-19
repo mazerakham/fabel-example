@@ -12,6 +12,11 @@ public class FabelExampleServer {
     server.add(new JSXHandler(server));
     server.start();
     Log.debug("Server started on port 8080.");
+
+    WebServer apiServer = new WebServer("Fabel Example API Server", 7070, false)
+        .controller(new ExampleAPIController())
+        .start();
+    Log.debug("API Server started on port 7070.");
   }
 
   public static void main(String... args) {
