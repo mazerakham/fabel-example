@@ -1,2 +1,2 @@
 # fabel-example
-Minimal skeleton server exhibiting Fabel transpiler
+Minimal skeleton server exhibiting Fabel transpiler.  Run FabelExampleServer.main().
