@@ -1,8 +1,9 @@
-import { React, ReactDOM, useEffect, useState } from "ender-react.mjs";
+import { React, ReactDOM, useEffect, useState } from "react.mjs";
 
 function Home() {
 
-  [count, setCount] = useState(0);
+  let [count, setCount] = useState(0);
+  
   return (
     <Home>
       <div>Hello world in a component.</div>
